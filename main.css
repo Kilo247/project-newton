@@ -1,0 +1,44 @@
+body {
+    background: #00001a url("abstract-background.jpg") no-repeat top;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    color: white;
+    border: 1px solid black;
+    background: url("abstract-background.jpg") center;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    width: 100%;
+    padding:1%;
+    text-align: center;
+    font: 2em impact;
+    min-height:3em;
+}
+
+div {
+    border: 5px white;
+    color: white;
+    min-height:20vh;
+    flex-grow:1;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    background-color: black;
+    width: 100%;
+    padding: 10%;
+    font: 1em comic;
+    align-content: center;
+    text-align: center;
+    
+}
+
+h2 {
+    border: solid black;
+    background-color: blue;
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    font: 1.6em impact;
+}
